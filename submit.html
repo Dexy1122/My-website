@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <title> 
+        LOGIN
+    </title>
+</head>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background: url(images/hyacinth.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .loginbox{
+                padding:80px 40px ;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                box-sizing: border-box;
+                width: 400px;
+                height: 420%;
+                background: rgba(0, 0, 0, -5); 
+            }
+            .user{
+                background-color: rgb(52, 56, 103);
+                width: 100px;
+                height: 100px;
+                text-align: center;
+                color: aliceblue;
+                font-size: 110px;
+                border-radius: 50%;
+                overflow: hidden;
+                position: absolute;
+                top: calc(-100px/2);
+                left: calc(50% - 50px);
+            }
+            h2{
+                margin: 0;
+                padding: 0 0 20px;
+                color: aquamarine;
+                text-align: center;
+
+            }
+            .loginbox p{
+                margin: 0;
+                padding: 0;
+                font-weight: bold;
+                color: aliceblue;
+
+            }
+            .loginbox input{
+                width: 100%;
+                margin-bottom: 20px;
+
+            }
+            .loginbox input[type="text"], .loginbox input[type="password"]{
+                border: none;
+                border-bottom: 1px solid white;
+                outline: none;
+                background: transparent;
+                height: 40px;
+                font-size: 16px;
+                color: white;
+            }
+            ::placeholder{
+                color: rgba(255 255 255 .5);
+            }
+            .loginbox input[type="submit"]{
+                border: none;
+                outline: none;
+                color: white;
+                height: 40px;
+                font-size: 16px;
+                font-weight: bold;
+                background: rgb(114 87 39);
+                cursor: pointer;
+                border-radius: 20px;
+            }
+            .loginbox a{
+                text-decoration: none;
+                color: white;
+                font-size: 14px;
+            }
+            .loginbox a:hover{
+                text-decoration: dotted;
+            }
+        </style>
+        <body>
+            <div class="loginbox">
+                <h2> LOGIN HERE</h2>
+                <form action="">
+                    <p> Email</p>
+                    <input type="text" placeholder="name@domail.com" required>
+                    <p> password</p>
+                    <input type="password" placeholder="*******" required>
+                    <input type="submit" value="Sign in">
+                    <a href="">Forgot password?</a>
+
+                </form>
+            </div>
+        </body>
+
+    
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="icon" href="images/bmw.jpg" type="images/x-icon">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        background: goldenrod;
+        color: whitesmoke;
+        padding: 15px 15px;
+    }
+    .logo{
+        width: 10px;
+    }
+    .right{
+        padding: 10px 0 0;
+
+    }
+    .right a{
+        color: whitesmoke;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 0 0 35px;
+    }
+    .banner{
+        width: 95%;
+        background-color: chocolate;
+        height: 200Px;
+        margin: 10px auto;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: goldenrod;
+        color: whitesmoke;
+    }
+    @media(max-width : 400px){
+        .container{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .box{
+            margin: 20px auto;
+            width: 90%;
+        }
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="menu">
+        <div class="left">
+            <img src="images/computer.png" alt="computer logo">
+        </div>
+        <div class="right">
+            <a href="#">Home</a>
+            <a hre="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+    </div>
+    <div class="banner">
+        
+    </div>
+    <div class="container">
+        <div class="box"><img src="images/bmw.jpg"></div>
+        <div class="box"><img src="images/bicycle.jpg"></div>
+        <div class="box"><img src="images/fantasy.jpg"></div>
+    </div>
+</body>
+
+</html>
+
+

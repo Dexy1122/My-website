@@ -1,0 +1,21 @@
+#gallery{
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 5px;
+    -moz-column-count: 5;
+    -moz-column-gap: 5px;
+    column-count: 5;
+    column-gap: 5px;
+    background-image: url(images/bmw.jpg);
+    background-size: contain;
+    background-position: 0%;
+}
+#gallery img{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
+}
+#gallery img:hover{
+    filter: grayscale(100%);
+    transition: 2s;
+}
