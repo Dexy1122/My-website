@@ -1,0 +1,76 @@
+.container{
+    background: blueviolet;
+    height: 900px;
+}
+form{
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 40%;
+    position: relative;
+    top: 100%;
+    border-radius: 30px;
+}
+
+.title{
+    text-align: center;
+    padding: 25px 0;
+
+}
+.form-group{
+    padding: 20px 0;
+}
+label{
+    font-weight: bold;
+}
+.form-control{
+    width: 20px;
+    margin: 10px 0;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+.btn{
+    width: 100%;
+    padding: 15px 5px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+input[type="text"]:focus{
+    background-color: coral;
+    color: white;
+}
+input[type="Email"]{
+    /*background: ;*/
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    padding: 15px 15px 10px 50px;
+}
+select{
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+
+}
+@media(max-width:900px){
+    .container{
+        background: palevioletred;
+    }
+    form{
+        width: 70%;
+    }
+
+}
+
+@media(max-width:600px) {
+    .container{
+        background: greenyellow;
+    }
+    form{
+        width: 90%;
+    }
+    
+}
